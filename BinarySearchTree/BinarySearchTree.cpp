@@ -10,5 +10,12 @@ public:
 	Node* rightchild;
 
 	// Counstructor for the node class 
-	Node(string i, Node* 1, Node* r)
+	Node(string i, Node* I, Node* r)
+	{
+		info = i;
+		leftchild = I;
+		rightchild = r;
+	}
 };
+
+class BinaryTree

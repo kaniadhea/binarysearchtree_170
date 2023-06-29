@@ -10,12 +10,21 @@ public:
 	Node* rightchild;
 
 	// Counstructor for the node class 
-	Node(string i, Node* I, Node* r)
+	Node(string i, Node* l, Node* r)
 	{
 		info = i;
-		leftchild = I;
+		leftchild = l;
 		rightchild = r;
 	}
 };
 
 class BinaryTree
+{
+public:
+	Node* ROOT;
+
+	BinaryTree()
+	{
+		ROOT = NULL; //Initializing ROOT to null
+	}
+};
